@@ -9,7 +9,7 @@ const client = new Client();
 client.on('ready', () => {
   console.log('MayMay ready.');
   // Link to git
-  client.user.setActivity('tinyurl.com/maymaycode', { type: 'WATCHING' });
+  client.user.setActivity('help!m', { type: 'WATCHING' });
 });
 
 
@@ -18,10 +18,16 @@ function defmeme(id,url) {
 	if (message.content === ("m!"+id)) {
 		message.delete(1000);
 		const attachment = new Attachment(url);
+		message.reply(message.author);
 		message.channel.send(attachment);
 	}
 }
-// Meme library
+
+if (message.content === ("help!m")) {
+	message.reply("https://tinyurl.com/maymaycode");
+}
+
+// MEME LIBRARY
 
 defmeme("politecat","https://i.kym-cdn.com/entries/icons/original/000/026/638/cat.jpg")
 defmeme("konodioda","https://www.myinstants.com/media/instants_images/it-was-me-dio.jpg")
