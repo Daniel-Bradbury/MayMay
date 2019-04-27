@@ -7,7 +7,7 @@ const client = new Client();
  * received from Discord
  */
 client.on('ready', () => {
-  console.log('I am ready!');
+  console.log('MayMay ready.');
   // Link to git
   client.user.setActivity('tinyurl.com/maymaycode', { type: 'WATCHING' });
 });
@@ -49,6 +49,7 @@ defmeme("challengereligion","http://www.quickmeme.com/img/e2/e21a589f46233c17cbc
 defmeme("takemymoney","https://i.kym-cdn.com/photos/images/facebook/000/113/201/ShutUpAndTakeMyMoney.jpg")
 defmeme("nani","https://i.ytimg.com/vi/vxKBHX9Datw/maxresdefault.jpg")
 defmeme("jojolick","https://cdn.discordapp.com/attachments/562372678690930689/571779240693858306/lick-S1QzRJp7z.gif")
+defmeme("jojopunch","https://saechaocirculation.files.wordpress.com/2016/12/star-platinum-vs-crazy-diamond.gif")
 
 });
 
