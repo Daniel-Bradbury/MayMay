@@ -48,6 +48,7 @@ defmeme("wwwspider","https://i.imgflip.com/ljiam.jpg")
 defmeme("challengereligion","http://www.quickmeme.com/img/e2/e21a589f46233c17cbc4b1f3b2ae1e1f63e6f941be40e5350d1c844af9dd4c6c.jpg")
 defmeme("takemymoney","https://i.kym-cdn.com/photos/images/facebook/000/113/201/ShutUpAndTakeMyMoney.jpg")
 defmeme("nani","https://i.ytimg.com/vi/vxKBHX9Datw/maxresdefault.jpg")
+defmeme("jojolick","https://cdn.discordapp.com/attachments/562372678690930689/571779240693858306/lick-S1QzRJp7z.gif")
 
 });
 
