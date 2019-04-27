@@ -1,7 +1,5 @@
-// Extract the required classes from the discord.js module
 const { Client, Attachment } = require('discord.js');
 
-// Create an instance of a Discord client
 const client = new Client();
 
 /**
@@ -10,7 +8,10 @@ const client = new Client();
  */
 client.on('ready', () => {
   console.log('I am ready!');
+  // Link to git
+  client.user.setActivity('tinyurl.com/maymaycode', { type: 'WATCHING' });
 });
+
 
 client.on('message', message => {
 function defmeme(id,url) {
@@ -20,7 +21,6 @@ function defmeme(id,url) {
 		message.channel.send(attachment);
 	}
 }
-
 // Meme library
 
 defmeme("politecat","https://i.kym-cdn.com/entries/icons/original/000/026/638/cat.jpg")
@@ -45,7 +45,7 @@ defmeme("crycat","https://i.kym-cdn.com/entries/icons/original/000/026/489/cryin
 defmeme("tmyk","https://i.ytimg.com/vi/03QuygM0YB8/maxresdefault.jpg")
 defmeme("wat","https://img.allw.mn/content/zl/ep/kb1gg0uo_500x498.jpg")
 defmeme("wwwspider","https://i.imgflip.com/ljiam.jpg")
-defmeme("challengreligion","http://www.quickmeme.com/img/e2/e21a589f46233c17cbc4b1f3b2ae1e1f63e6f941be40e5350d1c844af9dd4c6c.jpg")
+defmeme("challengereligion","http://www.quickmeme.com/img/e2/e21a589f46233c17cbc4b1f3b2ae1e1f63e6f941be40e5350d1c844af9dd4c6c.jpg")
 defmeme("takemymoney","https://i.kym-cdn.com/photos/images/facebook/000/113/201/ShutUpAndTakeMyMoney.jpg")
 defmeme("nani","https://i.ytimg.com/vi/vxKBHX9Datw/maxresdefault.jpg")
 
