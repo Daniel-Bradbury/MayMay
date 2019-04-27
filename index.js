@@ -28,6 +28,7 @@ if (message.content === ("help!m")) {
 }
 
 // MEME LIBRARY
+// PREFIX: "m!"
 
 defmeme("politecat","https://i.kym-cdn.com/entries/icons/original/000/026/638/cat.jpg")
 defmeme("konodioda","https://www.myinstants.com/media/instants_images/it-was-me-dio.jpg")
