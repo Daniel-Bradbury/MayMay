@@ -50,6 +50,7 @@ defmeme("takemymoney","https://i.kym-cdn.com/photos/images/facebook/000/113/201/
 defmeme("nani","https://i.ytimg.com/vi/vxKBHX9Datw/maxresdefault.jpg")
 defmeme("jojolick","https://cdn.discordapp.com/attachments/562372678690930689/571779240693858306/lick-S1QzRJp7z.gif")
 defmeme("jojopunch","https://saechaocirculation.files.wordpress.com/2016/12/star-platinum-vs-crazy-diamond.gif")
+defmeme("nohead","https://cdn.discordapp.com/attachments/562372678690930689/571780405938618378/a2b7468.jpg")
 
 });
 
