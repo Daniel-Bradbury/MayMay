@@ -58,7 +58,6 @@ defmeme("jojolick","https://cdn.discordapp.com/attachments/562372678690930689/57
 defmeme("jojopunch","https://saechaocirculation.files.wordpress.com/2016/12/star-platinum-vs-crazy-diamond.gif")
 defmeme("nohead","https://cdn.discordapp.com/attachments/562372678690930689/571780405938618378/a2b7468.jpg")
 defmeme("animeheadbang","https://media1.tenor.com/images/e3ee98dbe8f779bd28a7ec3a964bb0c2/tenor.gif")
-defmeme("kden","https://i.kym-cdn.com/entries/icons/mobile/000/016/574/kden.jpg")
 
 });
 
