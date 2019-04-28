@@ -63,6 +63,7 @@ defmeme("blink","https://media3.giphy.com/media/3ELtfmA4Apkju/giphy.gif")
 defmeme("fbiwantslocation","https://i.imgur.com/8uZgKCe.jpg")
 defmeme("bekfast","https://s3.amazonaws.com/s3.mp-cdn.net/75/4a/43f0d559653ca0cedbc6629b0f36-bekfast.jpg")
 defmeme("mlgbekfast","https://i.imgflip.com/1qy6m7.jpg")
+defmeme("politecatderp","https://66.media.tumblr.com/d78eca87f8777c91aba8e36bfaf60841/tumblr_piexz3XwSj1ufzrtb_540.jpg")
 
 });
 client.on('error', console.error);
