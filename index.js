@@ -60,6 +60,9 @@ defmeme("jojopunch","https://saechaocirculation.files.wordpress.com/2016/12/star
 defmeme("nohead","https://cdn.discordapp.com/attachments/562372678690930689/571780405938618378/a2b7468.jpg")
 defmeme("animeheadbang","https://media1.tenor.com/images/e3ee98dbe8f779bd28a7ec3a964bb0c2/tenor.gif")
 defmeme("blink","https://media3.giphy.com/media/3ELtfmA4Apkju/giphy.gif")
+defmeme("fbiwantslocation","https://i.imgur.com/8uZgKCe.jpg")
+defmeme("bekfast","https://s3.amazonaws.com/s3.mp-cdn.net/75/4a/43f0d559653ca0cedbc6629b0f36-bekfast.jpg")
+defmeme("mlgbekfast","https://i.imgflip.com/1qy6m7.jpg")
 
 });
 client.on('error', console.error);
