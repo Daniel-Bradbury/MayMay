@@ -65,6 +65,7 @@ defmeme("bekfast","https://s3.amazonaws.com/s3.mp-cdn.net/75/4a/43f0d559653ca0ce
 defmeme("mlgbekfast","https://i.imgflip.com/1qy6m7.jpg")
 defmeme("politecatderp","https://66.media.tumblr.com/d78eca87f8777c91aba8e36bfaf60841/tumblr_piexz3XwSj1ufzrtb_540.jpg")
 defmeme("areyousure","https://media1.tenor.com/images/179a70460819456f1ce647cf57e7d1aa/tenor.gif")
+defmeme("hahayes","https://i.kym-cdn.com/photos/images/original/001/170/001/c44.png")
 
 });
 client.on('error', console.error);
