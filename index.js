@@ -18,7 +18,7 @@ function defmeme(id,url) {
 	if (message.content === ("m!"+id)) {
 		message.delete(1000);
 		const attachment = new Attachment(url);
-		message.reply(message.author);
+		message.reply("said:");
 		message.channel.send(attachment);
 	}
 }
