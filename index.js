@@ -67,6 +67,10 @@ defmeme("politecatderp","https://66.media.tumblr.com/d78eca87f8777c91aba8e36bfaf
 defmeme("areyousure","https://media1.tenor.com/images/179a70460819456f1ce647cf57e7d1aa/tenor.gif")
 defmeme("hahayes","https://i.kym-cdn.com/photos/images/original/001/170/001/c44.png")
 defmeme("defdance","https://thumbs.gfycat.com/MilkyUnsteadyLeonberger-max-1mb.gif")
+defmeme("wry","https://media1.tenor.com/images/086c4d1f98fc032213ae1c20a5538efb/tenor.gif")
+defmeme("ree","https://i.redd.it/p51gfhaw8u421.jpg")
+defmeme("ohyou","https://media.discordapp.net/attachments/560132302454259712/574123747787800596/Ihavea75commissiongoingbut_ef4229bae1aeb3b131823a72b7d33b80.jpg")
+
 
 });
 client.on('error', console.error);
