@@ -70,7 +70,7 @@ defmeme("defdance","https://thumbs.gfycat.com/MilkyUnsteadyLeonberger-max-1mb.gi
 defmeme("wry","https://media1.tenor.com/images/086c4d1f98fc032213ae1c20a5538efb/tenor.gif")
 defmeme("ree","https://i.redd.it/p51gfhaw8u421.jpg")
 defmeme("ohyou","https://media.discordapp.net/attachments/560132302454259712/574123747787800596/Ihavea75commissiongoingbut_ef4229bae1aeb3b131823a72b7d33b80.jpg")
-
+defmeme("nuke","https://media.giphy.com/media/HhTXt43pk1I1W/200.gif")
 
 });
 client.on('error', console.error);
