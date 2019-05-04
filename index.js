@@ -71,6 +71,8 @@ defmeme("wry","https://media1.tenor.com/images/086c4d1f98fc032213ae1c20a5538efb/
 defmeme("ree","https://i.redd.it/p51gfhaw8u421.jpg")
 defmeme("ohyou","https://media.discordapp.net/attachments/560132302454259712/574123747787800596/Ihavea75commissiongoingbut_ef4229bae1aeb3b131823a72b7d33b80.jpg")
 defmeme("nuke","https://media.giphy.com/media/HhTXt43pk1I1W/200.gif")
+defmeme("spideronionring","https://cdn.discordapp.com/attachments/559356084406452224/574153117239738369/uf2ja2y874t01.jpg")
+defmeme("sanslmao","https://cdn.discordapp.com/attachments/559356198978322432/574158997809135636/sans_emote_afkjhsjdg.png")
 
 });
 client.on('error', console.error);
