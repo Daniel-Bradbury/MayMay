@@ -74,6 +74,7 @@ defmeme("nuke","https://media.giphy.com/media/HhTXt43pk1I1W/200.gif")
 defmeme("spideronionring","https://cdn.discordapp.com/attachments/559356084406452224/574153117239738369/uf2ja2y874t01.jpg")
 defmeme("sanslmao","https://cdn.discordapp.com/attachments/559356198978322432/574158997809135636/sans_emote_afkjhsjdg.png")
 defmeme("unoreverse","https://i.redd.it/wiga0fsqors11.png")
+defmeme("trumpderp","https://cdn.discordapp.com/attachments/560132302454259712/574183924314406912/Screenshot_2019-05-04_Stu_on_Twitter_FOXNRL_with_Sam_Burgess_on_the_coverage_is_hilarious_Hes_a_pota.png")
 	
 });
 client.on('error', console.error);
