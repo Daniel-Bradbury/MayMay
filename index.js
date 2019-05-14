@@ -9,7 +9,7 @@ const client = new Client();
 client.on('ready', () => {
   console.log('MayMay ready.');
   // Link to git
-  client.user.setActivity('help!m', { type: 'WATCHING' });
+  client.user.setActivity('m!git', { type: 'WATCHING' });
 });
 
 
@@ -23,7 +23,7 @@ function defmeme(id,url) {
 	}
 }
 
-if (message.content === ("help!m")) {
+if (message.content === ("m!git")) {
 	message.reply("https://tinyurl.com/maymaycode");
 }
 
