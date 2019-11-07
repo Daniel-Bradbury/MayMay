@@ -1,4 +1,5 @@
 const { Client, Attachment } = require('discord.js');
+const fs = require('fs');
 
 const client = new Client();
 
@@ -80,5 +81,8 @@ defmeme("villagerderp","https://video.twimg.com/tweet_video/D6iHyNCXkAAchvD.mp4"
 
 });
 client.on('error', console.error);
-
-// BOT TOKEN OMMITED
+var token;
+token=fs.readFileSync("token.txt");
+token = token.toString().trim();
+console.log("Successfully read token: "+token);
+client.login(token);
