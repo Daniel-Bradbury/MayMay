@@ -73,6 +73,8 @@ defmeme("feelsraveman","https://cdn.discordapp.com/attachments/55935608440645222
 defmeme("villagerderp","https://video.twimg.com/tweet_video/D6iHyNCXkAAchvD.mp4")
 defmeme("omegalul","https://cdn.vox-cdn.com/thumbor/xaBWKotj8isJdnSYJoRLnw0Ceok=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10838101/omegalul.jpg.jpg")
 defmeme("endmeemoji","https://img.4plebs.org/boards/pol/image/1484/23/1484239346536.png")
+defmeme("hmm","https://p7.hiclipart.com/preview/673/47/712/emoji-discord-meme-android-imgur-thinking.jpg")
+
 });
 client.on('error', console.error);
 var token;
