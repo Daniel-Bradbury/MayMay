@@ -78,6 +78,7 @@ defmeme("unoreverse","https://i.redd.it/wiga0fsqors11.png")
 defmeme("trumpderp","https://cdn.discordapp.com/attachments/560132302454259712/574183924314406912/Screenshot_2019-05-04_Stu_on_Twitter_FOXNRL_with_Sam_Burgess_on_the_coverage_is_hilarious_Hes_a_pota.png")
 defmeme("feelsraveman","https://cdn.discordapp.com/attachments/559356084406452224/576780004688396318/feelsraveman.gif")
 defmeme("villagerderp","https://video.twimg.com/tweet_video/D6iHyNCXkAAchvD.mp4")
+defmeme("omegalul","https://cdn.vox-cdn.com/thumbor/xaBWKotj8isJdnSYJoRLnw0Ceok=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10838101/omegalul.jpg.jpg")
 
 });
 client.on('error', console.error);
