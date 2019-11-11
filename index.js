@@ -18,10 +18,10 @@ client.on('message', message => {
 function defmeme(id,extension) {
 	if (message.content === ("m!"+id)) {
 		message.delete(1000);
+		console.log(message.author.username+" used "+id)
 		const attachment = new Attachment("./data/"+id+"."+extension);
 		message.reply("said:");
 		message.channel.send(attachment);
-		console.log(message.author.username+" used "+id)
 	}
 }
 
