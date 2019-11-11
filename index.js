@@ -10,7 +10,7 @@ const client = new Client();
 client.on('ready', () => {
   console.log('MayMay ready.');
   // Link to git
-  client.user.setActivity('m!git', { type: 'WATCHING' });
+  client.user.setActivity('m!help', { type: 'WATCHING' });
 });
 
 
@@ -25,8 +25,8 @@ function defmeme(id,url) {
 	}
 }
 
-if (message.content === ("m!git")) {
-	message.reply("https://tinyurl.com/maymaycode");
+if (message.content === ("m!help")) {
+	message.reply("https://github.com/Daniel-Bradbury/MayMay-bot/blob/9db77e1a3fbd64f26b49cf4cb0a05b73369fc62f/index.js#L32");
 }
 
 // MEME LIBRARY
