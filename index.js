@@ -21,6 +21,7 @@ function defmeme(id,url) {
 		const attachment = new Attachment(url);
 		message.reply("said:");
 		message.channel.send(attachment);
+		console.log(message.author.username+" used "+id)
 	}
 }
 
