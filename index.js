@@ -26,7 +26,7 @@ function defmeme(id,extension) {
 }
 
 if (message.content === ("m!help")) {
-	message.reply("https://github.com/Daniel-Bradbury/MayMay-bot/blob/9db77e1a3fbd64f26b49cf4cb0a05b73369fc62f/index.js#L32");
+	message.reply("https://github.com/Daniel-Bradbury/MayMay-bot/blob/master/index.js");
 }
 
 // MEME LIBRARY
