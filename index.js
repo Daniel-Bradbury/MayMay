@@ -1,3 +1,6 @@
+// !!! PEOPLE FROM HELP COMMAND SCROLL DOWN TO LINE 37 !!!
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 const { Client, Attachment } = require('discord.js');
 const fs = require('fs');
 
@@ -26,7 +29,10 @@ function defmeme(id,extension) {
 }
 
 if (message.content === ("m!help")) {
-	message.reply("https://github.com/Daniel-Bradbury/MayMay-bot/blob/master/index.js");
+	message.reply("https://github.com/Daniel-Bradbury/MayMay/blob/master/index.js");
+}
+if (message.content === ("m!git")) {
+	message.reply("https://github.com/Daniel-Bradbury/MayMay");
 }
 
 // MEME LIBRARY
