@@ -23,8 +23,7 @@ function defmeme(id,extension) {
 		message.delete(1000);
 		console.log(message.author.username+" used "+id)
 		const attachment = new Attachment("./data/"+id+"."+extension);
-		message.reply("");
-		message.channel.send(attachment);
+		message.reply(attachment);
 	}
 }
 
