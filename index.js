@@ -96,6 +96,7 @@ defmeme("pelosmile","webp")
 defmeme("pelowut","webp")
 defmeme("shocked","png")
 defmeme("beegyoshi","gif")
+defmeme("godgone","jpg")
 
 });
 client.on('error', console.error);
