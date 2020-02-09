@@ -99,6 +99,7 @@ defmeme("beegyoshi","gif")
 defmeme("godgone","jpg")
 defmeme("watching","jpg")
 defmeme("wholemilk","jpg")
+defmeme("kermitsuicide","gif")
 
 });
 client.on('error', console.error);
