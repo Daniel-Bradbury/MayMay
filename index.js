@@ -101,6 +101,7 @@ defmeme("watching","jpg")
 defmeme("wholemilk","jpg")
 defmeme("kermitsuicide","gif")
 defmeme("spongedance","gif")
+defmeme("goodboi","png")
 
 });
 client.on('error', console.error);
