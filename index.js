@@ -102,6 +102,7 @@ defmeme("wholemilk","jpg")
 defmeme("kermitsuicide","gif")
 defmeme("spongedance","gif")
 defmeme("goodboi","png")
+defmeme("fuming","jpg")
 
 });
 client.on('error', console.error);
