@@ -27,10 +27,10 @@ client.on('message', message => {
 	}
 
 	if (message.content === ("m!help")) {
-		message.reply("https://github.com/Daniel-Bradbury/MayMay/tree/master/data");
+		message.channel.send("https://github.com/Daniel-Bradbury/MayMay/tree/master/data");
 	}
 	if (message.content === ("m!git")) {
-		message.reply("https://github.com/Daniel-Bradbury/MayMay");
+		message.channel.send("https://github.com/Daniel-Bradbury/MayMay");
 	}
 
 	glob("data/*.*", function (er, files) {
