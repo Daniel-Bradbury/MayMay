@@ -3,6 +3,15 @@ const fs = require('fs');
 const path = require('path');
 var glob = require("glob");
 
+console.log("Building help message...");
+var help = [];
+glob("data/*.*", function (er, files) {
+	files.forEach(file => {
+		help.push(path.basename(file).split('.').slice(0, -1).join('.'));
+	});
+});
+help.join("\n");
+console.log("done.");
 const client = new Client();
 
 /**
@@ -10,7 +19,7 @@ const client = new Client();
  * received from Discord
  */
 client.on('ready', () => {
-	console.log('MayMay ready.');
+	console.log('Bot connected.');
 	// Link to git
 	client.user.setActivity('m!help', { type: 'WATCHING' });
 });
@@ -27,7 +36,10 @@ client.on('message', message => {
 	}
 
 	if (message.content === ("m!help")) {
-		message.channel.send("https://github.com/Daniel-Bradbury/MayMay/tree/master/data");
+		message.reply("Make sure that you are in either a spam channel or a bot commands channel, this will post a very long message.\nType `m!help confirm` to continue");
+	}
+	if (message.content === ("m!help confirm")) {
+		message.channel.send(help);
 	}
 	if (message.content === ("m!git")) {
 		message.channel.send("https://github.com/Daniel-Bradbury/MayMay");
@@ -43,5 +55,5 @@ client.on('error', console.error);
 var token;
 token = fs.readFileSync("token.txt");
 token = token.toString().trim();
-console.log("Successfully read token: " + token);
+console.log("Successfully read token.");
 client.login(token);
