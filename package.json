@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Daniel-Bradbury/MayMay#readme",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "glob": "^7.1.6"
   }
 }
