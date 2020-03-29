@@ -1,13 +1,12 @@
 const { Client, Attachment } = require('discord.js');
 const fs = require('fs');
-const path = require('path');
 var glob = require("glob");
 
 console.log("Building help message...");
 var help = [];
 glob("data/*.*", function (er, files) {
 	files.forEach(file => {
-		help.push(path.basename(file).split('.').slice(0, -1).join('.'));
+		help.push(file.replace("data/","").split('.').slice(0, -1).join('.'));
 	});
 });
 help.join("\n");
@@ -47,7 +46,7 @@ client.on('message', message => {
 
 	glob("data/*.*", function (er, files) {
 		files.forEach(file => {
-			meme(path.basename(file));
+			meme(file.replace("data/",""));
 		});
 	});
 });
