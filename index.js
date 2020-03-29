@@ -39,7 +39,7 @@ client.on('message', message => {
 		message.reply("Make sure that you are in either a spam channel or a bot commands channel, this will post a very long message.\nType `m!help confirm` to continue");
 	}
 	if (message.content === ("m!help confirm")) {
-		message.channel.send(help);
+		message.channel.send("These are the currently available images: \n`"+help+"`\n\nTo use one, just type `m![image]`.");
 	}
 	if (message.content === ("m!git")) {
 		message.channel.send("https://github.com/Daniel-Bradbury/MayMay");
