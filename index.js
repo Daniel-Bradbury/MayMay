@@ -57,7 +57,8 @@ client.on('message', message => {
 				}
 			}
 		}
-		message.reply("\n"+messagefinal);
+		message.reply()
+		message.channel.send("\n" + messagefinal);
 		message.delete(1000);
 	}
 	glob("data/*.*", function (er, files) {
