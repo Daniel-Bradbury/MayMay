@@ -6,7 +6,7 @@ console.log("Building help message...");
 var help = [];
 glob("data/*.*", function (er, files) {
 	files.forEach(file => {
-		help.push(file.replace("data/","").split('.').slice(0, -1).join('.'));
+		help.push(file.replace("data/", "").split('.').slice(0, -1).join('.'));
 	});
 });
 help.join("\n");
@@ -38,15 +38,30 @@ client.on('message', message => {
 		message.reply("Make sure that you are in either a spam channel or a bot commands channel, this will post a very long message.\nType `m!help confirm` to continue");
 	}
 	if (message.content === ("m!help confirm")) {
-		message.channel.send("These are the currently available images: \n`"+help+"`\n\nTo use one, just type `m![image]`.");
+		message.channel.send("These are the currently available images: \n`" + help + "`\n\nTo use one, just type `m![image]`.");
 	}
 	if (message.content === ("m!git")) {
 		message.channel.send("https://github.com/Daniel-Bradbury/MayMay");
 	}
-
+	if (message.content.startsWith("m!indicator ")) {
+		messagefinal = ""
+		messageslice = message.content.slice(12, message.length)
+		for (var i = 0; i < messageslice.length; i++) {
+			if (messageslice.charAt(i).toLowerCase().match(/[a-z]/i)) {
+				messagefinal += ":regional_indicator_" + messageslice.charAt(i).toLowerCase() + ":"
+			} else {
+				if (messageslice.charAt(i).toLowerCase().match(' ')) {
+					messagefinal += "  "
+				} else {
+					messagefinal += messageslice.charAt(i)
+				}
+			}
+		}
+		message.channel.send(messagefinal);
+	}
 	glob("data/*.*", function (er, files) {
 		files.forEach(file => {
-			meme(file.replace("data/",""));
+			meme(file.replace("data/", ""));
 		});
 	});
 });
